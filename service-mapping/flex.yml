@@ -1,0 +1,20 @@
+flex:
+  owners:
+    - test-sharma_ukg
+  orchestrator:
+    repo: test-repo
+  services:
+    - name: ts-7
+      description: test services
+      metadata:
+        repo: test-svc-repo
+        ref: main
+      authorization:
+        owners:
+          - test-sharma_ukg
+        dev:
+          users: 
+            - test-sharma_ukg
+        prd:
+          users:
+            - test-sharma_ukg
